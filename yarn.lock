@@ -1732,6 +1732,18 @@
     unique-filename "^1.1.1"
     which "^1.3.1"
 
+"@fxi/el@0.0.12":
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/@fxi/el/-/el-0.0.12.tgz#cf89364fc6150a30dd772d7bd60679ec4343bda6"
+  integrity sha512-w4Mi/zH06ordkUu5HtZIbXnhVBfjy8CG/6noW6z2rX6COeJ8wKHlsyKs7ZL9QM0IVIxRqfALvPxRX/TlpdPF6w==
+
+"@fxi/mxsdk@^1.6.79-alpha":
+  version "1.6.79-alpha"
+  resolved "https://registry.yarnpkg.com/@fxi/mxsdk/-/mxsdk-1.6.79-alpha.tgz#2fe259aa4c3957bee5cbefe92dc60afcc9af7e73"
+  integrity sha512-zzj/qZ9S8QqjfPIPaV9F010sSzy+eIrL2Sd1h9YYK98NsBMuRcH3kTxHyDYkZXF3N+SCXbq+ZuCyUuovXpCq2w==
+  dependencies:
+    "@fxi/el" "0.0.12"
+
 "@icons/material@^0.2.4":
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"

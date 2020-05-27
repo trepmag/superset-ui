@@ -1,0 +1,39 @@
+{
+  "name": "grid-superset-ui-plugin-chart-mapx",
+  "version": "0.0.0",
+  "description": "Superset Chart Plugin - MapX",
+  "sideEffects": [
+    "*.css"
+  ],
+  "main": "lib/index.js",
+  "module": "esm/index.js",
+  "files": [
+    "esm",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache-superset/superset-ui-plugins-template.git"
+  },
+  "keywords": [
+    "superset"
+  ],
+  "author": "Superset",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/apache-superset/superset-ui-plugins-template/issues"
+  },
+  "homepage": "https://github.com/apache-superset/superset-ui-plugins-template#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@fxi/mxsdk": "^1.6.79-alpha",
+    "@types/react": "^16.3.0"
+  },
+  "peerDependencies": {
+    "@superset-ui/chart": "^0.13.0",
+    "@superset-ui/translation": "^0.13.0",
+    "react": "^16.3.0"
+  }
+}

@@ -1,0 +1,7 @@
+.mapx-wrapper {
+  display: flex;
+}
+
+.mapx-wrapper > div  {
+  flex-grow: 1;
+}
